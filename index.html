@@ -1,0 +1,94 @@
+The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the HTML page
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+<p>My first paragraph.</p>
+<p title="I'm a tooltip">This is a paragraph.</p>   <!-- title showes as tooltip -->
+<b> - Bold text
+<strong> - Important text -  <!-- output is the same as b but it means important -->
+<i> - Italic text
+<em> - Emphasized text -  <!-- output is the same as i but it means important -->
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+------------------------------------------------------------------------------------
+<a href="url">link text</a>
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+---------------------------------------------------------------------------------------
+Button
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+------------------------------------------------------------------------------
+  bookmark
+  <a href="#C4">Jump to Chapter 4</a>
+------------------------------------------------------------------------------
+  Image
+  <img src="pic_trulli.jpg" alt="Italian Trulli">
+  --------------------------------------------------------------------------
+  Image Map
+  <img src="pic_trulli.jpg" alt="Italian Trulli">
+  <map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+  </map>
+  
+rect - defines a rectangular region
+circle - defines a circular region
+poly - defines a polygonal region
+default - defines the entire region
+  --------------------------------------------------------------------------------
+  background image
+  <p style="background-image: url('img_girl.jpg');">
+    or
+    <style>
+p {
+  background-image: url('img_girl.jpg');
+}
+</style>
+  ---------------------------------------------------------------
+  
+CSS:
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
