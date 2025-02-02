@@ -1,3 +1,4 @@
+
 The <!DOCTYPE html> declaration defines that this document is an HTML5 document
 The <html> element is the root element of an HTML page
 The <head> element contains meta information about the HTML page
@@ -92,3 +93,4 @@ CSS:
 Inline - by using the style attribute inside HTML elements
 Internal - by using a <style> element in the <head> section
 External - by using a <link> element to link to an external CSS file
+
